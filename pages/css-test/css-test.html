@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css-test.css" />
+        <title>CSS Test</title>
+    </head>
+    <style>
+        h2 {
+            color: purple;
+            align-self: flex-start;
+        }
+    </style>
+    <body class="iframe-body">
+        <h1>Таблицы в HTML</h1>
+        <br />
+        <p id="cyan-paragraph">
+            Одним из наиболее мощных и широко применяемых в <b>HTML</b> средств являются
+            <span style="font-size: 1.5rem; font-style: italic">таблицы</span>.
+        </p>
+        <br />
+        <p class="second-paragraph">
+            <span>Понятие табличного представления данных не нуждается в дополнительном пояснении. </span>
+            <span
+                >В HTML таблицы используются не только традиционно, как метод представления данных, но и как средство
+                форматирования Web-страниц.</span
+            >
+        </p>
+        <br />
+        <h2>Создание простейших HTML-таблиц</h2>
+        <p style="align-self: flex-start; color: white">
+            <span style="font-size: 1.3rem; background-color: fuchsia; font-style: italic; font-weight: 600"
+                >Описание</span
+            >
+            <u>таблиц должно</u> располагаться внутри раздела документа <code>&ltBODY></code>.
+        </p>
+        <br />
+        <p style="font-size: 1.2rem; font-weight: 500; color: white">
+            Каждая <span style="color: blue; text-decoration: underline">таблица</span> должна
+            <span style="font-size: 1.4rem">начинаться</span> тэгом &ltTABLE> и завершаться тэгом &lt/TABLE>.
+        </p>
+        <br />
+        <p style="text-align: center; padding: 0 30px; font-size: 1.2rem; color: white">
+            <span
+                style="
+                    color: blue;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    font-style: italic;
+                "
+                >Каждая</span
+            >
+            строка начинается тэгом &ltTR> (Table Row) и завершается тэгом &lt/TR>.
+            <span style="color: red; font-style: italic; font-weight: 600">Отдельная</span> ячейка в строке обрамляется
+            парой тегов &ltTD> и &lt/TD (Table Data) HJH &ltTH> H &lt/TH> (Table Header)
+        </p>
+        <br />
+        <p
+            style="
+                align-self: flex-end;
+                font-size: 1.2rem;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 600;
+                color: white;
+            "
+        >
+            Таблица 1
+        </p>
+
+        <table>
+            <caption>
+                Математические выражения
+            </caption>
+
+            <tr>
+                <th
+                    style="
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+                            sans-serif;
+                        font-style: italic;
+                        text-align: start;
+                    "
+                >
+                    Поле 1
+                </th>
+                <th style="background-color: black; color: white; font-size: 1.3rem">Поле 2</th>
+                <th style="background-color: cyan; color: blue; font-size: 1.3rem; text-align: end">Поле 3</th>
+                <th
+                    style="
+                        background-color: palevioletred;
+                        text-decoration: underline;
+                        text-align: start;
+                        font-style: italic;
+                        font-size: 1.3rem;
+                        color: black;
+                    "
+                >
+                    Поле 4
+                </th>
+                <th
+                    style="
+                        background-color: yellow;
+                        font-family: 'Times New Roman', Times, serif;
+                        font-size: 1.2rem;
+                        color: black;
+                    "
+                >
+                    Поле 5
+                </th>
+            </tr>
+            <tr>
+                <td class="blue">(a+b)<sup>2</sup></td>
+                <td style="text-align: center; font-weight: 600; color: white">a<sup>2</sup>-b<sup>2</sup></td>
+                <td class="blue" style="text-align: right">(a+b)<sup>3</sup></td>
+                <td style="font-weight: 600; color: white">A<sub>1</sub>+A<sub>2</sub>+...A<sub>i</sub></td>
+                <td class="blue" style="text-align: center; color: white">y=x<sup>2</sup></td>
+            </tr>
+        </table>
+    </body>
+</html>

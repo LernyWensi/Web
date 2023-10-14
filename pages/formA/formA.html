@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="formA.css" />
+        <title>Form A</title>
+    </head>
+    <body class="iframe-body">
+        <form action="#">
+            <div>
+                <label for="second-name">Фамилия</label>
+                <input type="text" name="second-name" />
+            </div>
+
+            <div>
+                <label for="initials">Инициалы</label>
+                <input type="text" name="initials" />
+            </div>
+
+            <div>
+                <label for="password">Пароль</label>
+                <input type="password" name="password" />
+            </div>
+
+            <div>
+                <label for="receiver-address">Адрес получателя</label>
+                <input type="address" name="receiver-address" />
+            </div>
+
+            <div>
+                <label for="quantity">Количество</label>
+                <input type="number" name="quantity" />
+            </div>
+
+            <div>
+                <label for="type">Тип</label>
+                <select name="type">
+                    <option value="chicken">Куриные</option>
+                </select>
+                <select name="type">
+                    <option value="selected">Отборные</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Доставка</p>
+
+                <div>
+                    <input type="radio" name="delivery-type" />
+                    <label for="delivery-type">Почтой</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="delivery-type" />
+                    <label for="delivery-type">Электронно</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="delivery-type" />
+                    <label for="delivery-type">Курьером</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="is-invoice-required">Требуется накладная</label>
+                <input type="checkbox" name="is-invoice-required" />
+            </div>
+
+            <div>
+                <label for="additional-info">Дополнительная информация</label>
+                <textarea name="additional-info" cols="50" rows="3"></textarea>
+            </div>
+        </form>
+    </body>
+</html>

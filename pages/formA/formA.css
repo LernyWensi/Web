@@ -1,0 +1,41 @@
+@import url(../../shared.css);
+
+form > div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+form > div > label:not([for="delivery-type"]),
+p {
+    margin-right: 10px;
+    display: block;
+    width: 230px;
+    text-align: end;
+}
+
+form div:last-child {
+    display: flex;
+    align-items: center;
+}
+
+form div:nth-child(7) > div {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+select {
+    margin-right: 5px;
+}
+
+textarea,
+input {
+    resize: none;
+    overflow: scroll;
+    outline: none;
+    border: none;
+}

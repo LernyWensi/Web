@@ -1,0 +1,59 @@
+@import url(../../shared.css);
+
+.iframe-body {
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+}
+
+table {
+    border: initial !important;
+    outline: initial !important;
+}
+
+h1 {
+    color: blue;
+    letter-spacing: 1.5rem;
+}
+
+#cyan-paragraph {
+    color: black;
+    background-color: cyan;
+    width: max-content;
+}
+
+.second-paragraph {
+    margin-left: 40%;
+    text-align: right;
+    color: black;
+}
+
+.second-paragraph span:first-child {
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+.second-paragraph span:last-child {
+    background-color: gray;
+}
+
+caption {
+    color: blue;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-weight: 600;
+    text-decoration: line-through;
+    font-style: italic;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+td,
+th {
+    outline: 2px solid white;
+    height: 20px;
+    width: 150px;
+}
+
+.blue {
+    color: blue;
+    font-weight: 600;
+}

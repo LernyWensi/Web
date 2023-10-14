@@ -1,0 +1,15 @@
+@import url(../../shared.css);
+
+table {
+    border: 2px solid var(--color-font-primary);
+}
+
+th {
+    height: 20px;
+}
+
+td {
+    border: 2px solid var(--color-font-primary);
+    width: 170px;
+    height: 60px;
+}

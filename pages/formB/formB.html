@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="formB.css" />
+        <title>Form B</title>
+    </head>
+    <body class="iframe-body">
+        <form action="#">
+            <div>
+                <label for="login">Логин:</label>
+                <input type="text" name="login" />
+            </div>
+
+            <div>
+                <label for="password">Пароль:</label>
+                <input type="password" name="password" />
+            </div>
+
+            <div>
+                <label for="website-url">URL-адрес сайта:</label>
+                <input type="url" name="url" />
+            </div>
+
+            <div>
+                <label for="website-name">Название сайта:</label>
+                <input type="text" name="website-name" />
+            </div>
+
+            <div>
+                <label for="website-description">Описание сайта:</label>
+                <textarea name="website-description" id="" cols="60" rows="6"></textarea>
+            </div>
+
+            <div>
+                <label for="website-theme">Тема сайта:</label>
+                <select name="website-theme">
+                    <option id="none" value="none">Тема не выбрала</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="banner">Баннер 88x31</label>
+                <input type="file" name="banner" />
+            </div>
+
+            <div>
+                <input type="reset" value="Очистить" />
+                <input type="submit" value="Отправить" />
+            </div>
+        </form>
+    </body>
+
+    <script>
+        document.querySelector("input[submit]").addEventListener("submit", (e) => {
+            e.preventDefault();
+        });
+    </script>
+</html>

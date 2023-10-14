@@ -1,0 +1,40 @@
+@import url(../../shared.css);
+
+:root {
+    --color-colspan: #3d9a85;
+    --color-rowspan: #ffeab6;
+}
+
+tr {
+    border: 2px solid var(--color-font-primary);
+}
+
+td {
+    border: 2px solid var(--color-font-primary);
+    height: 50px;
+    width: 50px;
+}
+
+td[colspan] {
+    background-color: var(--color-colspan);
+}
+
+td[rowspan] {
+    background-color: var(--color-rowspan);
+}
+
+#first-cell {
+    background-color: #ef5858;
+}
+
+#second-cell {
+    background-color: #44caff;
+}
+
+#third-cell {
+    background-color: #44c562;
+}
+
+#fourth-cell {
+    background-color: #ffb02e;
+}
